@@ -42,3 +42,8 @@ output "s3_bucket_name" {
   value       = aws_s3_bucket.this.bucket
   description = "The name of the bucket we'll be using as blob storage"
 }
+
+output "kms_key_s3_arn" {
+  value       = aws_kms_key.s3.arn
+  description = "The ARN of the KMS key used to encrypt and decrypt the S3 bucket"
+}

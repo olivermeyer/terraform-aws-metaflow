@@ -128,3 +128,8 @@ output "batch_compute_environment_security_group_id" {
   value       = module.metaflow-computation.batch_compute_environment_security_group_id
   description = "The ID of the security group attached to the Batch Compute environment."
 }
+
+output "datastore_kms_key_s3_arn" {
+  value       = module.metaflow-datastore.kms_key_s3_arn
+  description = "The ARN of the KMS key used to encrypt and decrypt the S3 bucket"
+}

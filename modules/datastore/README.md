@@ -43,6 +43,7 @@ To read more, see [the Metaflow docs](https://docs.metaflow.org/metaflow-on-aws/
 | <a name="output_database_password"></a> [database\_password](#output\_database\_password) | The database password |
 | <a name="output_database_username"></a> [database\_username](#output\_database\_username) | The database username |
 | <a name="output_datastore_s3_bucket_kms_key_arn"></a> [datastore\_s3\_bucket\_kms\_key\_arn](#output\_datastore\_s3\_bucket\_kms\_key\_arn) | The ARN of the KMS key used to encrypt the Metaflow datastore S3 bucket |
+| <a name="output_kms_key_s3_arn"></a> [kms\_key\_s3\_arn](#output\_kms\_key\_s3\_arn) | The ARN of the KMS key used to encrypt and decrypt the S3 bucket |
 | <a name="output_rds_master_instance_endpoint"></a> [rds\_master\_instance\_endpoint](#output\_rds\_master\_instance\_endpoint) | The database connection endpoint in address:port format |
 | <a name="output_s3_bucket_arn"></a> [s3\_bucket\_arn](#output\_s3\_bucket\_arn) | The ARN of the bucket we'll be using as blob storage |
 | <a name="output_s3_bucket_name"></a> [s3\_bucket\_name](#output\_s3\_bucket\_name) | The name of the bucket we'll be using as blob storage |
